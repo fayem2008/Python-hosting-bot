@@ -1,0 +1,14 @@
+{
+  "name": "python-host-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to upload and run Python files (simple educational host, no DB)",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
